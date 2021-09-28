@@ -1,0 +1,88 @@
+body
+{
+	background-color: #F8C129;
+	font-family: Verdana;
+}
+
+#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
+#logo
+{
+	background-color: white;
+	color: yellow;
+	padding-left: 30px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	
+}
+#menu
+{
+	background-color: white;
+	color: black;
+	padding:5px;
+	padding-left:50px;	
+}
+
+
+#content
+{
+	float: left;
+	background-color: white;
+	width: 830px;
+	min-height:620px;
+	padding: 15px;
+	
+}
+
+#info
+{
+	float: left;
+	background-color: white;
+	width: 120px;
+	min-height:630px;
+	padding:10px;
+	text-align: center;
+}
+
+#footer
+{
+	clear: both;
+	background-color: black;
+	color: #F8C129;
+	text-align: center;
+	padding:2px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+/* linki */
+
+/* nieodwiedzone */
+a:linki
+{
+	color:black;
+}
+
+/* odwiedzone */
+a:visited
+{
+	color:black;
+}
+
+/* po najechaniu kursorem */
+a:hover
+{
+	color:#F8C129;
+}
+
+a {
+
+text-decoration: none;
+
+}
