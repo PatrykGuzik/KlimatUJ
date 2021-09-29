@@ -1,7 +1,7 @@
 body
 {
 	background-color: #F8C129;
-	font-family: Verdana;
+	font-family: Trebuchet MS;
 }
 
 #container
@@ -9,7 +9,8 @@ body
 		width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
-		
+		background-color: white;
+		border-radius: 20px;
 	}
 	
 #logo
@@ -27,6 +28,7 @@ body
 	color: black;
 	padding:5px;
 	padding-left:50px;	
+	font-size: 20px;
 }
 
 
@@ -41,22 +43,24 @@ body
 }
 #slider
 {
-	background-color: black;
 	height:320px;
 	width: 755px;
 	margin-left: auto;
 	margin-right: auto;
-	
+	padding-top: 20px;
 }
 
 #info
 {
 	float: left;
 	background-color: white;
-	width: 120px;
-	min-height:630px;
+	width: 119px;
+	min-height:400px;
 	padding:10px;
 	text-align: center;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-top-left-radius: 20px;
 }
 
 #footer
@@ -73,7 +77,7 @@ body
 /* linki */
 
 /* nieodwiedzone */
-a:linki
+a:link
 {
 	color:black;
 }
@@ -95,3 +99,141 @@ a {
 text-decoration: none;
 
 }
+
+
+/*------- Slider -------*/
+
+.carousel-container
+{
+	/*border: 3px solid black;*/
+	overflow: hidden;
+	margin:auto;
+	position: relative;
+	border-radius: 20px;
+	
+	
+}
+
+.carousel-slide
+{
+	display: flex;
+	width: 100%;
+	
+}
+	
+	
+#prevBtn{
+	position: absolute;
+	top: 42%;
+	z-index: 10;
+	left: 0.1%;
+	opacity: 0.7;
+	cursor: pointer;
+	color: #F8C129;
+}
+
+#nextBtn{
+	position: absolute;
+	top: 42%;
+	z-index: 10;
+	right: 0.1%;
+	opacity: 0.7;
+	cursor: pointer;
+	color: #F8C129;
+}
+
+#prevBtn:hover{
+	opacity: 0.9;
+}
+
+#nextBtn:hover{
+	opacity: 0.9;
+}
+
+
+/*------- artykuły -------*/
+
+#title
+{
+	width: 745px;
+	background-color: white;
+	padding-top:20px;
+	padding-left:35px;
+}
+
+
+
+#image
+{
+	float: left;
+	background-color: white;
+	width: 360px;
+	margin:0 auto;
+	padding:5px;
+	padding-left:35px
+}
+#insideImage
+{
+	border-radius: 10px;
+}
+
+
+#text
+{
+	float: left;
+	padding:5px;
+	background-color:white;
+	width: 345px;
+	text-align: justify;
+	
+	
+}
+
+#brake
+{
+	clear: both;
+	padding:5px;
+}
+
+
+
+/*------- artykuł osobny -------*/
+
+#articleHead
+{
+	padding-left: 40px;
+	width: 755px;
+	background-color: white;
+	font-size: 30px;
+	
+}
+
+#articleDate
+{
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	opacity: 0.5;
+	background-color: white;
+}
+
+#articleImage
+{
+	padding-left: 40px;
+	width: 755px;
+}
+
+#insideArticleImage
+{
+	border-radius: 10px;
+}
+
+#articleText
+{
+	padding-left: 40px;
+	padding-top: 20px;
+	text-align: justify;
+	width: 755px;
+}
+
