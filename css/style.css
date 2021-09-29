@@ -39,6 +39,15 @@ body
 	padding: 15px;
 	
 }
+#slider
+{
+	background-color: black;
+	height:320px;
+	width: 755px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 
 #info
 {
